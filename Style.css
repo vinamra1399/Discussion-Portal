@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+  }
+  
+  header {
+    background-color: cadetblue;
+    height: 100px;
+  }
+  
+  .header_heading {
+    padding: 30px;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left_side {
+    width: 600px;
+  }
+  
+  .question_form {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+  }
+  
+  #newquestion {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+  }
+  
+  #search {
+    width: 200px;
+    height: 50px;
+  }
+  
+  .question_display {
+    background-color: lightgray;
+    height: 500px;
+    overflow: scroll;
+    border-top: 1px solid grey;
+  }
+  
+  .welcome_div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  #subject {
+    width: 200px;
+    height: 50px;
+  }
+  
+  #textarea {
+    height: 100px;
+  }
+  
+  #submit {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 400px;
+  }
+  
+  .div_inner {
+    border: 1px solid grey;
+    padding: 20px;
+  }
+  
+  .right_after {
+    margin-left: 100px;
+  }
+  
+  .questions_heading {
+    color: lightgray;
+    font: bolder;
+  }
+  
+  .question_div {
+    background-color: lightgray;
+    width: 600px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 30px;
+  }
+  
+  #resolve {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 500px;
+  }
+  
+  .respnses_heading {
+    color: lightgray;
+  }
+  
+  .response_div {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add_response {
+    color: lightgray;
+  }
+  
+  .submit_after_right {
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .add_response_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #enter_name {
+    width: 200px;
+    height: 50px;
+  }
+  
+  #textarea_comment {
+    width: 600px;
+    height: 100px;
+  }
+  
+  #submit_after_right {
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    margin-left: 500px;
+  }
+  

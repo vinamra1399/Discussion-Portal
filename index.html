@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion App</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header_heading">Discussion portal</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left_side">
+          <div class="question_form">
+            <button id="newquestion">New Question Form</button>
+            <input type="text" placeholder="Search Questions..." id="search" />
+          </div>
+          <div id="question_display" class="question_display"></div>
+        </div>
+        <div class="right_side">
+          <div id="welcome_div" class="welcome_div">
+            <h1 class="welcome_heading">Welcome To Discussion Portal</h1>
+            <p class="para">Enter a subject and heading to get started</p>
+            <input placeholder="Subject" type="text" id="subject" />
+            <textarea id="textarea" placeholder="Question"></textarea>
+            <button id="submit">Submit</button>
+          </div>
+          <div id="right_after" style="display: none" class="right_after">
+            <h1 class="questions_heading">Questions</h1>
+            <div class="question_div">
+              <h1 id="question_div_heading" class="question_div_heading"></h1>
+              <p id="question_div_para" class="question_div_para"></p>
+              <button id="resolve">Resolve</button>
+              <h1 class="respnses_heading">Responses</h1>
+              <div id="response_div" class="response_div"></div>
+              <div class="add_response_div">
+                <h1 class="add_response">Add Response</h1>
+                <input type="text" placeholder="Enter Name" id="enter_name" />
+                <textarea
+                  placeholder="Enter Comments"
+                  id="textarea_comment"
+                ></textarea>
+                <button id="submit_after_right">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="Script.js"></script>
+  </body>
+</html>
